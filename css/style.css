@@ -1,0 +1,28 @@
+section {
+    padding-top: 100px;
+}
+
+nav {
+    justify-content: center;
+}
+
+#start {
+    text-align: center;
+}
+
+.container img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.attributes {
+    font-weight: bold;
+}
+
+#categories{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
