@@ -17,6 +17,5 @@ function renderCategoriesList() {
   }
   document.getElementById("categories").innerHTML = anchorTags.join("");
 }
-  
+
 renderCategoriesList();
-  
