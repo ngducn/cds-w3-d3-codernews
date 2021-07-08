@@ -3,7 +3,9 @@ let articles = [];
 let allArticles = [];
 let pageNumber = 0;
 
-
+document.getElementById("searchButton").addEventListener('click', (e) => {
+  e.preventDefault();
+})
 
 function rendersArticles(articles) {
   const article = articles.map(
